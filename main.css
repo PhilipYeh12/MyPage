@@ -1,10 +1,70 @@
-div {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-}
-
 body{
   background-color:#f4f4f4;
   color:#555555;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  line-height:1.6em;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+
+}
+.container2{
+  padding:0;
+  height: 250px;
+  margin:auto;
+  overflow:hidden;
+
+}
+
+#Main-header{
+  background-color:PaleTurquoise;
+  color:#fff;
+}
+#navigation{
+  box-sizing: border-box;
+  height: 25px;
+  padding: 0;
+  background-color: #333;
+  color:#fff;
+}
+#navigation u1{
+
+  padding:0;
+  list-style: none;
+}
+
+#navigation li{
+  display:inline;
+}
+#navigation a{
+
+  color:#fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+#mainspaceheader{
+  background-image:url('../Tutorial Website/b2.jpg');
+
+}
+#cicleface
+{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+
+
+}
+
+.guy{
+  clip-path: circle();
 }
