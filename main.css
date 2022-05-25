@@ -1,5 +1,5 @@
 body{
-  background-color:#f4f4f4;
+  background-color:SteelBlue;
   color:#555555;
 
   font-family: Arial, Helvetica, sans-serif;
@@ -22,9 +22,13 @@ body{
 
 }
 
+
+
+
+
 #Main-header{
   background-color:SteelBlue;
-  color:#fff;
+  color:white;
 }
 #navigation{
   box-sizing: border-box;
@@ -51,16 +55,16 @@ body{
 }
 
 #mainspaceheader{
-  background-image:url('../MyPage/b9.jpg');
+  background-image:url('../MyPage/b10.jpg');
   background-position: center;
-  height: 235px;
+  height: 250px;
   margin-bottom: 30px;
   text-align: center;
 
 }
 
 #mainspaceheader h1{
-  color:white;
+  color:black;
   font-size: 25px;
 }
 #cicleface
@@ -75,18 +79,20 @@ body{
 }
 
 #mainspace{
+  overflow:hidden;
   background: white;
   float: left;
   width: 70%;
-  height: 425px;
+  height: 495px;
   padding:0 30px;
   box-sizing: border-box;
 }
 
 #sidebar{
+  overflow:hidden;
   float: right;
   width: 30%;
-  height: 425px;
+  height: 495px;
   background: grey;
   color:white;
   padding:10px;
@@ -96,7 +102,7 @@ body{
 #footer{
 
   background: black;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
@@ -109,4 +115,12 @@ body{
   width: 200px;
   padding: 20px;
   height: 200px;
+}
+
+tr:first-child {
+    text-align: left;
+}​
+
+th, td {
+  border-bottom: 1px solid #ddd;
 }
