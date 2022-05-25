@@ -23,7 +23,7 @@ body{
 }
 
 #Main-header{
-  background-color:PaleTurquoise;
+  background-color:SteelBlue;
   color:#fff;
 }
 #navigation{
@@ -60,7 +60,7 @@ body{
 }
 
 #mainspaceheader h1{
-  color:white;
+  color:black;
   font-size: 25px;
 }
 #cicleface
