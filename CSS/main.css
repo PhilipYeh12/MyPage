@@ -1,3 +1,5 @@
+
+/* Set body styles */
 body{
   background-color:SteelBlue;
   color:#555555;
@@ -7,7 +9,7 @@ body{
   line-height:1.6em;
   margin:0;
 }
-
+/*container hold majority of divs.*/
 .container{
 
   width:95%;
@@ -15,6 +17,8 @@ body{
   overflow:hidden;
 
 }
+
+/* holds circle div */
 .container2{
   padding:0;
   height: 250px;
@@ -22,7 +26,7 @@ body{
   overflow:hidden;
 
 }
-
+/* header styles */
 h2{
   font-family: 'Playfair Display', serif;
   color:black;
@@ -47,12 +51,12 @@ h4{
 }
 
 
-
+/* top stles */
 #Top-Header{
   background-color:SteelBlue;
   color:white;
 }
-
+/*nav bar styles */
 #navigation{
   box-sizing: border-box;
   height: 25px;
@@ -80,7 +84,7 @@ h4{
   font-size: 18px;
   padding-right: 25px;
 }
-
+/* get circle face*/
 #cicleface
 {
 
@@ -98,7 +102,7 @@ h4{
   padding: 20px;
   height: 200px;
 }
-
+/* Main section of text and styles*/
 #mainspaceheader{
   background-image:url('../Assets/b10.jpg');
   background-position: center;
@@ -140,7 +144,7 @@ h4{
  }
 
 
-
+/* table styles */
 tr:first-child {
     text-align: left;
 

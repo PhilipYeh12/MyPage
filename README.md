@@ -1,2 +1,4 @@
 # MyPage
- comp4610
+ Philip_yeh@student_uml.edu
+ Assignment 1
+ 
