@@ -52,7 +52,16 @@ body{
 
 #mainspaceheader{
   background-image:url('../MyPage/b7.jpg');
+  background-position: center;
+  height: 235px;
+  margin-bottom: 30px;
+  text-align: center;
 
+}
+
+#mainspaceheader h1{
+  color:orange;
+  font-size: 25px;
 }
 #cicleface
 {
@@ -65,6 +74,39 @@ body{
 
 }
 
+#mainspace{
+  background: white;
+  float: left;
+  width: 70%;
+  height: 425px;
+  padding:0 30px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  height: 425px;
+  background: grey;
+  color:white;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+#footer{
+
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+
+ }
+
 .guy{
-  clip-path: circle();
+  padding-top: 15px;
+  border-radius: 50%;
+  width: 200px;
+  padding: 20px;
+  height: 200px;
 }
