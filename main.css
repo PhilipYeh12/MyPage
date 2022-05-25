@@ -22,6 +22,28 @@ body{
 
 }
 
+h2{
+  font-family: 'Playfair Display', serif;
+  color:black;
+  font-size:35px;
+  line-height:1.6em;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  color:black;
+  font-size:25px;
+  line-height:1.6em;
+  border-bottom: double;
+
+}
+
+h4{
+  font-family: 'Playfair Display', serif;
+  border-bottom: double;
+  color:black;
+  font-size:22px;
+}
 
 
 
@@ -63,10 +85,6 @@ body{
 
 }
 
-#mainspaceheader h1{
-  color:black;
-  font-size: 25px;
-}
 #cicleface
 {
 
@@ -93,11 +111,12 @@ body{
   float: right;
   width: 30%;
   height: 495px;
-  background: grey;
-  color:white;
+  background: LightSlateGray;
+  color:black;
   padding:10px;
   box-sizing: border-box;
 }
+
 
 #footer{
 
@@ -119,8 +138,10 @@ body{
 
 tr:first-child {
     text-align: left;
+
 }​
 
 th, td {
+  padding-right: 14px;
   border-bottom: 1px solid #ddd;
 }
