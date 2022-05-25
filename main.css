@@ -77,7 +77,7 @@ h4{
 }
 
 #mainspaceheader{
-  background-image:url('../MyPage/b10.jpg');
+  background-image:url('../MyPage/Assets/b10.jpg');
   background-position: center;
   height: 250px;
   margin-bottom: 30px;
@@ -101,7 +101,7 @@ h4{
   background: white;
   float: left;
   width: 70%;
-  height: 495px;
+  height: 515px;
   padding:0 30px;
   box-sizing: border-box;
 }
@@ -110,7 +110,7 @@ h4{
   overflow:hidden;
   float: right;
   width: 30%;
-  height: 495px;
+  height: 515px;
   background: LightSlateGray;
   color:black;
   padding:10px;
