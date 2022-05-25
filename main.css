@@ -48,10 +48,11 @@ h4{
 
 
 
-#Main-header{
+#Top-Header{
   background-color:SteelBlue;
   color:white;
 }
+
 #navigation{
   box-sizing: border-box;
   height: 25px;
@@ -80,15 +81,6 @@ h4{
   padding-right: 25px;
 }
 
-#mainspaceheader{
-  background-image:url('../MyPage/Assets/b10.jpg');
-  background-position: center;
-  height: 250px;
-  margin-bottom: 30px;
-  text-align: center;
-
-}
-
 #cicleface
 {
 
@@ -99,8 +91,23 @@ h4{
 
 
 }
+.guy{
+  padding-top: 15px;
+  border-radius: 50%;
+  width: 200px;
+  padding: 20px;
+  height: 200px;
+}
 
-#mainspace{
+#mainspaceheader{
+  background-image:url('../MyPage/Assets/b10.jpg');
+  background-position: center;
+  height: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+#about-me{
   overflow:hidden;
   background: white;
   float: left;
@@ -132,13 +139,7 @@ h4{
 
  }
 
-.guy{
-  padding-top: 15px;
-  border-radius: 50%;
-  width: 200px;
-  padding: 20px;
-  height: 200px;
-}
+
 
 tr:first-child {
     text-align: left;
